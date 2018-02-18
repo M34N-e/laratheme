@@ -1,0 +1,33 @@
+{
+    "name": "simtabi/laratheme",
+    "description": "Theme will help you organize your themes inside Laravel projects easily and maintain its related assets, layouts and partials for the theme in single directory. This is an ehanced version of (teepluss/theme)",
+    "keywords": ["laravel", "theme", "layout", "asset", "widget"],
+    "homepage": "https://github.com/simtabi/laratheme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imani",
+            "email": "imani@simatbi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "jeremeamia/superclosure": "^2.0"
+    },
+    "require-dev": {
+        "illuminate/support": ">=5.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simtabi\\Theme\\": "src/"
+        },
+        "classmap": [
+            "src/Exceptions.php"
+        ],
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
